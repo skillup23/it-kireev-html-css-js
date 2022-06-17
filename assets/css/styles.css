@@ -797,6 +797,7 @@ body.dark-theme {
 .footer__content {
   grid-template-columns: repeat(2, max-content);
   gap: 2.5rem 4rem;
+  margin-right: 5.33rem;
 }
 
 .footer__title {
@@ -983,7 +984,7 @@ body.dark-theme {
   }
 
   .footer__content {
-    grid-template-columns: repeat(3, max-content);
+    grid-template-columns: repeat(2, max-content);
   }
 }
 
@@ -1201,7 +1202,7 @@ body.dark-theme {
   }
 
   .footer__content {
-    grid-template-columns: repeat(4, max-content);
+    grid-template-columns: repeat(2, max-content);
   }
   .footer__title {
     margin-bottom: 1.5rem;
