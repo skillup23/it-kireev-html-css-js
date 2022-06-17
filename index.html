@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assets/img/favikon-kireev.png" type="image/x-icon">
+
+  <!--=============== BOXICONS ===============-->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <title>IT KIREEV Аутсорсинг</title>
+</head>
+
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo"></a>
+
+      <div class="nav__menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class='bx bx-home-alt-2'></i>
+              <span>Главная</span>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#popular" class="nav__link">
+              <i class='bx bx-building-house'></i>
+              <span>Услуги</span>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#value" class="nav__link">
+              <i class='bx bx-award'></i>
+              <span>Клиенты</span>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class='bx bx-phone'></i>
+              <span>Контакты</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Theme change button -->
+      <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+      <a href="#" class="button nav__button">
+        Заказать услуги
+      </a>
+    </nav>
+
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__data">
+          <h1 class="home__title">
+            IT KIREEV <br> Аутсорсинг
+          </h1>
+          <p class="home__description">
+            Для малого и среднего бизнеса<br>
+            Для частных лиц и предпринимателей
+          </p>
+
+          <form action="" class="home__search">
+            <i class='bx bxs-phone'></i>
+            <input type="tel" placeholder="Мы вам перезвоним..." value="" class="home__search-input">
+            <button class="button">Отправить</button>
+          </form>
+
+          <div class="home__value">
+            <div>
+              <h1 class="home__value-number">
+                20 <span>+</span>
+              </h1>
+              <span class="home__value-description">
+                Обслуживаемых <br> Компаний
+              </span>
+            </div>
+            <div>
+              <h1 class="home__value-number">
+                100 <span>+</span>
+              </h1>
+              <span class="home__value-description">
+                Довольных <br> Клиентов
+              </span>
+            </div>
+            <div>
+              <h1 class="home__value-number">
+                5К <span>+</span>
+              </h1>
+              <span class="home__value-description">
+                Выполненных <br> Заявок
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="home__images">
+          <div class="home__orde"></div>
+
+          <div class="home__img">
+            <img src="assets/img/foto-test4.jpg" alt="home-image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== LOGOS ====================-->
+    <section class="logos section">
+      <div class="logos__container container grid">
+        <div class="logos__img">
+          <img src="assets/img/anb-logo.svg" alt="logo1">
+        </div>
+        <div class="logos__img">
+          <img src="assets/img/energo-logo.png" alt="logo2">
+        </div>
+        <div class="logos__img">
+          <img src="assets/img/himz-logo.png" alt="logo3">
+        </div>
+        <div class="logos__img">
+          <img src="assets/img/vizit-logo.png" alt="logo4">
+        </div>
+      </div>
+    </section>
+
+    <!--==================== POPULAR ====================-->
+    <section class="popular section" id="popular">
+      <div class="container">
+        <span class="section__subtitle">И не только</span>
+        <h2 class="section__title">
+          Основные услуги ИТ-аутсорсинга<span>:</span>
+        </h2>
+
+        <div class="popular__container grid">
+          <article class="popular__card">
+            <img src="assets/img/uslugi1.jpg" alt="" class="popular__img">
+
+            <div class="popular__data">
+              <h3 class="popular__title">
+                Обслуживание компьютеров
+              </h3>
+              <p class="popular__description">
+                Весь комплекс услуг компьютерного обслуживания, включая ремонт, обновление, настройку и поддержку
+              </p>
+            </div>
+          </article>
+
+          <article class="popular__card">
+            <img src="assets/img/uslugi6.jpg" alt="" class="popular__img">
+
+            <div class="popular__data">
+              <h3 class="popular__title">
+                Обслуживание <br>серверов
+              </h3>
+              <p class="popular__description">
+                Квалифицированная поддержка серверов, серверного и сетевого оборудования
+              </p>
+            </div>
+          </article>
+
+          <article class="popular__card">
+            <img src="assets/img/uslugi2.jpg" alt="" class="popular__img">
+
+            <div class="popular__data">
+              <h3 class="popular__title">
+                Внедрение и оптимизация 1С
+              </h3>
+              <p class="popular__description">
+                Реализация любых задач, модификация программного кода конфигураций 1С.
+              </p>
+            </div>
+          </article>
+
+          <article class="popular__card">
+            <img src="assets/img/uslugi3.jpg" alt="" class="popular__img">
+
+            <div class="popular__data">
+              <h3 class="popular__title">
+                Монтаж и настройка видеонаблюдения
+              </h3>
+              <p class="popular__description">
+                Разработка проекта, подбор видеорегистраторов и камер видеонаблюдения.
+              </p>
+            </div>
+          </article>
+
+          <article class="popular__card">
+            <img src="assets/img/uslugi4.jpg" alt="" class="popular__img">
+
+            <div class="popular__data">
+              <h3 class="popular__title">
+                Подключение и настройка IP-телефонии
+              </h3>
+              <p class="popular__description">
+                Офисная АТС, <br>организация Call-центра, <br>виртуальная АТС
+              </p>
+            </div>
+          </article>
+
+          <article class="popular__card">
+            <img src="assets/img/uslugi5.jpg" alt="" class="popular__img">
+
+            <div class="popular__data">
+              <h3 class="popular__title">
+                Создание <br>сайтов
+              </h3>
+              <p class="popular__description">
+                Разработка и сопровождения лендингов, сайтов-визиток, многостарничных сайтов
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!--==================== VALUE ====================-->
+    <section class="value section" id="value">
+      <div class="value__container container grid">
+        <div class="value__images">
+          <div class="value__orbe"></div>
+
+          <div class="value__img">
+            <img src="assets/img/foto-test3.jpg" alt="value">
+          </div>
+        </div>
+
+        <div class="value__content">
+          <div class="value__data">
+            <span class="section__subtitle">И по всему миру</span>
+            <h2 class="section__title">
+              ИТ-обслуживание в Краснодаре<span>:</span>
+            </h2>
+            <p class="value__description">
+              Имея более 15 лет опыта, эффективно решаем задачи разного масштаба -
+              от обеспечения работы сервера и нескольких рабочих мест до организации
+              комплексных ИТ-проектов крупного предприятия.
+            </p>
+          </div>
+
+          <div class="value__accordion">
+            <div class="value__accordion-item">
+              <header class="value__accordion-header">
+                <i class='bx bxs-shield-x value__accordion-icon'></i>
+                <h3 class="value__accordion-title">
+                  Средний и крупный бизнес
+                </h3>
+                <div class="value__accordion-arrow">
+                  <i class='bx bxs-down-arrow'></i>
+                </div>
+              </header>
+
+              <div class="value__accordion-content">
+                <p class="value__accordion-description">
+                  Организация аутсорсинга технической поддержки,
+                  решения задач по оптимизации ИТ-бюджета,
+                  обеспечения информационной безопасности.
+                </p>
+              </div>
+            </div>
+
+            <div class="value__accordion-item">
+              <header class="value__accordion-header">
+                <i class='bx bxs-x-square value__accordion-icon'></i>
+                <h3 class="value__accordion-title">
+                  Малый бизнес и предприниматели
+                </h3>
+                <div class="value__accordion-arrow">
+                  <i class='bx bxs-down-arrow'></i>
+                </div>
+              </header>
+
+              <div class="value__accordion-content">
+                <p class="value__accordion-description">
+                  Проведение аудита текущей инфраструктуры,
+                  подбор и модернизации оборудования,
+                  создание сетевой инфтраструктуры.
+                </p>
+              </div>
+            </div>
+
+            <div class="value__accordion-item">
+              <header class="value__accordion-header">
+                <i class='bx bxs-bar-chart-square value__accordion-icon'></i>
+                <h3 class="value__accordion-title">
+                  Частные лица
+                </h3>
+                <div class="value__accordion-arrow">
+                  <i class='bx bxs-down-arrow'></i>
+                </div>
+              </header>
+
+              <div class="value__accordion-content">
+                <p class="value__accordion-description">
+                  Помощь в покупке и настройке домашнего ПК,
+                  замена и ремонт компьютерной техники,
+                  установка и настрока любого программного обеспечения.
+                </p>
+              </div>
+            </div>
+
+            <div class="value__accordion-item">
+              <header class="value__accordion-header">
+                <i class='bx bxs-check-square value__accordion-icon'></i>
+                <h3 class="value__accordion-title">
+                  Консультации
+                </h3>
+                <div class="value__accordion-arrow">
+                  <i class='bx bxs-down-arrow'></i>
+                </div>
+              </header>
+
+              <div class="value__accordion-content">
+                <p class="value__accordion-description">
+                  Подбор оборудования для решения любых
+                  задач в IT-сфере, выбор оптимальных решений по
+                  соотношению "цена-качество"
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== CONTACT ====================-->
+    <section class="contact section" id="contact">
+      <div class="contact__container container grid">
+        <div class="contact__images">
+          <div class="contact__orbe"></div>
+
+          <div class="contact__img">
+            <img src="assets/img/foto-test5.jpg" alt="Contact">
+          </div>
+        </div>
+
+        <div class="contact__content">
+          <div class="contact__data">
+            <span class="section__subtitle">Связаться проще простого</span>
+            <h2 class="section__title">
+              Наши контакты<span>.</span>
+            </h2>
+            <p class="contact__description">
+              Более подробную информацию вы можете получить
+              связавшись с нами любым удобным для вас способом.
+              На связи 24/7.
+            </p>
+          </div>
+
+          <div class="contact__card">
+            <div class="contact__card-box">
+              <div class="contact__card-info">
+                <i class='bx bxs-phone-call'></i>
+
+                <div>
+                  <h3 class="contact__card-title">
+                    Телефон
+                  </h3>
+                  <p class="contact__card-description">
+                    +79282043404
+                    +79384266063
+                  </p>
+                </div>
+              </div>
+
+              <a href="tel:79282043404" target="_blank" class="button contact__card-button">
+                Позвонить
+              </a>
+            </div>
+
+            <div class="contact__card-box">
+              <div class="contact__card-info">
+                <i class='bx bxs-message-rounded-dots'></i>
+
+                <div>
+                  <h3 class="contact__card-title">
+                    WhatsApp
+                  </h3>
+                  <p class="contact__card-description">
+                    +79282043404
+                    +79384266063
+                  </p>
+                </div>
+              </div>
+
+              <a href="whatsapp://send?phone=79009009090" target="_blank" class="button contact__card-button">
+                Написать
+              </a>
+            </div>
+
+            <div class="contact__card-box">
+              <div class="contact__card-info">
+                <i class='bx bxs-video'></i>
+
+                <div>
+                  <h3 class="contact__card-title">
+                    Telegram
+                  </h3>
+                  <p class="contact__card-description">
+                    +79282043404
+                    +79384266063
+                  </p>
+                </div>
+              </div>
+
+              <a href="https://t.me/+79282043404" target="_blank" class="button contact__card-button">
+                Написать
+              </a>
+            </div>
+
+            <div class="contact__card-box">
+              <div class="contact__card-info">
+                <i class='bx bxs-envelope'></i>
+
+                <div>
+                  <h3 class="contact__card-title">
+                    E-mail
+                  </h3>
+                  <p class="contact__card-description">
+                    admin@it-kireev.ru
+                  </p>
+                </div>
+              </div>
+
+              <a href="mailto:admin@it-kireev.ru" target="_blank" class="button contact__card-button">
+                Письмо
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== SUBSCRIBE ====================-->
+    <section class="subscribe section">
+      <div class="subscribe__container container">
+        <h1 class="subscribe__title">
+          Прайс-лист
+        </h1>
+        <p class="subscribe__description">
+          Стоимость наших услуг рассчитывается индивидуально.
+          Более подробно в прайс-листе.
+          За дополнительной информацией обращайтесь по телефону или по почте.
+        </p>
+        <a href="#" class="button subscribe__button">
+          Скачать прайс-лист
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer section">
+    <div class="footer__container container grid">
+      <div>
+        <a href="#" class="footer__logo">
+          <img src="/assets/img/logo-blue2.png" alt="logo">
+        </a>
+        <p class="footer__description">
+          Все компьютеры попадают в рай.
+        </p>
+      </div>
+
+      <div class="footer__content">
+        <div>
+          <h3 class="footer__title">
+            About
+          </h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="" class="footer__link">About Us</a>
+            </li>
+            <li>
+              <a href="" class="footer__link">Features</a>
+            </li>
+            <li>
+              <a href="" class="footer__link">News & Blog</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__title">
+            Company
+          </h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="" class="footer__link">How We Work?</a>
+            </li>
+            <li>
+              <a href="" class="footer__link">Capital</a>
+            </li>
+            <li>
+              <a href="" class="footer__link">Security</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__title">
+            Support
+          </h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="" class="footer__link">FAQs</a>
+            </li>
+            <li>
+              <a href="" class="footer__link">Support center</a>
+            </li>
+            <li>
+              <a href="" class="footer__link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__title">
+            Follow us
+          </h3>
+
+          <ul class="footer__social">
+            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+              <i class='bx bxl-facebook-circle'></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+              <i class='bx bxl-instagram-alt'></i>
+            </a>
+            <a href="https://www.pinterest.com/" target="_blank" class="footer__social-link">
+              <i class='bx bxl-pinterest'></i>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__info container">
+      <span class="footer__copy">
+        &#169; RobertG64. Все права защищены
+      </span>
+
+      <div class="footer__privacy">
+        <a href="#">Условия и соглашения</a>
+        <a href="#">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--========== SCROLL UP ==========-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class='bx bx-chevrons-up'></i>
+  </a>
+
+  <!--=============== SCROLLREVEAL ===============-->
+  <script src="assets/js/scrollreveal.min.js"></script>
+
+  <!--=============== SWIPER JS ===============-->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
