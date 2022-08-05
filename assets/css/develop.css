@@ -1,7 +1,3 @@
-.develop-main {
-    background-color: hsl(228, 12%, 8%);
-}
-
 .develop {
     width: 100%;
     height: 100vh;
@@ -11,5 +7,5 @@
 
 .develop__title {
     margin-bottom: 30px;
-    color: var(--first-color-lighten);
+    color: var(--title-color);
 }

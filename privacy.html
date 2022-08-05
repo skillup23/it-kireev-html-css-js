@@ -17,7 +17,7 @@
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css">
     <style>
-        h4 { 
+        h4 {
             margin-bottom: 1rem;
             font-size: 1.2rem;
         }
@@ -31,9 +31,13 @@
         div {
             font-size: 1rem;
         }
+
+        a {
+            color: var(--first-color);
+        }
     </style>
 
-    <title>Develop</title>
+    <title>Политика в отношении обработки персональных данных</title>
 </head>
 
 <body>
@@ -168,7 +172,7 @@
             </div>
 
             <h5>5. Оператор может обрабатывать следующие персональные данные Пользователя</h5>
-            <div id="generatedDataCollecting" >
+            <div id="generatedDataCollecting">
                 <div>5.1. Фамилия, имя, отчество.</div>
                 <div>5.2. Электронный адрес.</div>
                 <div>5.3. Номера телефонов.</div>
@@ -399,8 +403,20 @@
                 </div>
             </div>
 
-            <a href="/index.html" class="button subscribe__button" style="width: 207px; margin: 2rem auto 0 auto; ">Вернуться назад</a>
+            <a href="/index.html" class="button subscribe__button"
+                style="width: 207px; margin: 2rem auto 0 auto; ">Вернуться назад</a>
     </main>
+
+    <script>
+        /*=============== DARK LIGHT THEME ===============*/
+        const darkTheme = 'dark-theme'
+
+        const selectedTheme = localStorage.getItem('selected-theme')
+
+        if (selectedTheme) {
+            document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
+        }
+    </script>
 </body>
 
 </html>
